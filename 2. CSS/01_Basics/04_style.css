@@ -1,0 +1,31 @@
+div{
+  height: 100vh;
+  background-color: #3f3f3f;
+  background-image: url(Myphoto_no\ dop.jpg);
+background-repeat: no-repeat;
+/* background-size: cover; */
+/* background-position: unset; */
+background-attachment: fixed;
+}
+
+.mahamantra{
+  color: fuchsia;
+}
+.hk{
+  background-color: black;
+}
+
+#one{
+  font-size: 4rem;
+  background-color: #3a3333;
+  color: rgb(22, 178, 121);
+}
+/* *{
+  border: 2px solid red;
+  margin: 0;
+  padding: 10px;
+} */
+
+div p {
+  color: tomato;
+}

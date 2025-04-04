@@ -1,0 +1,32 @@
+.parent{
+  background-color: #3a3a3a;
+  width: 500px;
+  height: 500px;
+}
+.one{
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  right: 100px;
+  left: 100px;
+}
+.two{
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  position:absolute;
+  left: 100px;
+}
+.three{
+  background-color: orange;
+  
+
+
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 10px 5px teal; 
+    position:fixed;
+    left :100px;
+  }
+  
