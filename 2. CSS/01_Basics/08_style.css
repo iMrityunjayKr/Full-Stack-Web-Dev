@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  background-color: blueviolet;
+  
+}
+.container{
+  border: 2px solid white;
+  height: 400px;
+  width: 800px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+
+}
+
+.container .child{
+  border: 2px solid white;
+  height: 50px;
+  width: 500px;
+  margin: 2px;
+  background-color: crimson;
+  text-align: center;
+  
+
+
+}
+.special{
+  /* order: 1; */
+  align-self: flex-end;
+  /* flex-grow: 4; */
+  /* flex-basis: 700px; */
+  flex-shrink: 4;
+}
